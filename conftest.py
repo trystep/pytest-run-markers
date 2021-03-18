@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 def pytest_addoption(parser):
     """PyTest method for adding custom console parameters"""
 
-    parser.addoption("--language", action="store", default='ru', type=str,
+    parser.addoption("--language", action="store", default='en', type=str,
                      help="Set language for Browser")
 
 
